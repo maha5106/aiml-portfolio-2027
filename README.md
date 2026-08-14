@@ -21,7 +21,7 @@
 
 | # | Project | Stack | Status |
 |---|---------|-------|--------|
-| 1 | AI Resume Analyzer | FastAPI, Python, OpenAI | 🔄 In Progress |
+| 1 | PulseML — Real-Time System Anomaly Detection | psutil, FastAPI, SQLite, scikit-learn | 🔄 Day 1 Complete |
 
 ---
 
@@ -29,3 +29,4 @@
 
 - **13 Aug 2026:** Repo created. 
 -  **14 Aug 2026:** Two Sum brute force and Hashmap solved and committed.
+-  **15 Aug 2026:** PulseML Day 1 — System reconnaissance complete. Collected baseline CPU, RAM, Disk, Network, Battery, and Process metrics.
