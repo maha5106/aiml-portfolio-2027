@@ -1,0 +1,36 @@
+PULSEML DAY 1 OBSERVATIONS
+Date: 15 Aug 2026
+
+| Run | CPU | RAM | Disk Read      | Network Read |
+| --- | --- | --- | ---------      |------------  |
+| 1   |23.9 |86.6 |82502627840bytes|426323282bytes|
+| 2   |25.5 |84.1 |84308276736bytes|429617341bytes|
+| 3   |13.8 |86.6 |85529487360bytes|434042650bytes|
+
+
+METRICS COLLECTED:
+1. CPU percent         - instant reading, fluctuates between 13.8% and 25.5%
+2. RAM percent         - instant reading, stable around 87%
+3. Disk Read bytes     - cumulative since boot, always increases
+4. Disk Write bytes    - cumulative since boot, always increases  
+5. Network Read bytes  - cumulative since boot, always increases
+6. Network Write bytes - cumulative since boot, always increases
+7. Battery percent     - instant reading, currently _26%
+8. Process count       - instant reading, around 338 processes
+
+KEY INSIGHT:
+Disk and Network counters are cumulative. They count total bytes since 
+the laptop was turned on. They never decrease. 
+
+If I feed these raw numbers into a machine learning model, every new 
+reading will look like an anomaly because the number keeps growing.
+
+THE FIX FOR DAY 2:
+I must calculate DELTA = current_reading - previous_reading.
+This gives me "bytes per second" instead of "total bytes since boot."
+Delta is what the anomaly detector will actually learn from.
+
+MY LAPTOP BASELINE:
+- Idle CPU range: 13% to 25%
+- RAM pressure: _87% (high/normal/low)
+- Battery: 26% (plug in at 7%)
