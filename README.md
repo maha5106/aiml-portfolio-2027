@@ -11,7 +11,7 @@
 | # | Problem | Approach | Time | Space | Status |
 |---|---------|----------|------|-------|--------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Brute Force | O(n²) | O(1) | ✅ Solved |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Hash Map (One Pass) | O(n) | O(n) | 🔄 In Progress |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Hash Map (One Pass) | O(n) | O(n) | ✅ solved.
 
 **Target:** 150 problems by April 2027.
 
