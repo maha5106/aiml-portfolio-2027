@@ -30,3 +30,4 @@
 - **13 Aug 2026:** Repo created. 
 -  **14 Aug 2026:** Two Sum brute force and Hashmap solved and committed.
 -  **15 Aug 2026:** PulseML Day 1 — System reconnaissance complete. Collected baseline CPU, RAM, Disk, Network, Battery, and Process metrics.
+- **16 Aug 2026:** Feature engineering: rolling averages, CPU delta, hour_of_day, is_weekend 
