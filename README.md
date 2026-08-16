@@ -21,7 +21,7 @@
 
 | # | Project | Stack | Status |
 |---|---------|-------|--------|
-| 1 | PulseML — Real-Time System Anomaly Detection | psutil, FastAPI, SQLite, scikit-learn | 🔄 Day 1 Complete |
+| 1 | PulseML — Real-Time System Anomaly Detection | psutil, FastAPI, SQLite, scikit-learn | 🔄 Day 1 Complete | Day 2 Complete | Day 3 complete
 
 ---
 
