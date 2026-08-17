@@ -11,9 +11,9 @@
 | # | Problem | Approach | Time | Space | Status |
 |---|---------|----------|------|-------|--------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Brute Force | O(n²) | O(1) | ✅ Solved |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Hash Map (One Pass) | O(n) | O(n) | ✅ solved.
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Sorting | O(n log n) | O(n) | ✅ |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Hash Map (Counter) | O(n) | O(1) | ⏳ |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Hash Map (One Pass) | O(n) | O(n) | ✅ solved|
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Sorting | O(n log n) | O(n) | ✅ solved|
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Hash Map (Counter) | O(n) | O(1) | ✅ solved |
 
 **Target:** 150 problems by April 2027.
 
