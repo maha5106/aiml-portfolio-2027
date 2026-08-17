@@ -12,6 +12,8 @@
 |---|---------|----------|------|-------|--------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Brute Force | O(n²) | O(1) | ✅ Solved |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Hash Map (One Pass) | O(n) | O(n) | ✅ solved.
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Sorting | O(n log n) | O(n) | ✅ |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Hash Map (Counter) | O(n) | O(1) | ⏳ |
 
 **Target:** 150 problems by April 2027.
 
@@ -30,4 +32,5 @@
 - **13 Aug 2026:** Repo created. 
 -  **14 Aug 2026:** Two Sum brute force and Hashmap solved and committed.
 -  **15 Aug 2026:** PulseML Day 1 — System reconnaissance complete. Collected baseline CPU, RAM, Disk, Network, Battery, and Process metrics.
-- **16 Aug 2026:** Feature engineering: rolling averages, CPU delta, hour_of_day, is_weekend 
+- **16 Aug 2026:** Feature engineering: rolling averages, CPU delta, hour_of_day, is_weekend
+-  **17 Aug 2026:** Valid Anagram solved (sorting approach) and (Hash Map approch).
